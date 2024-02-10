@@ -122,3 +122,26 @@ h2 {
     font-weight: extra-bold;
     color: #1f2937;
 }
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 40px 150px 40px 150px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 100;
+    display: flex;
+    min-width: 0;
+    margin-bottom: 0;
+}
+
+.thor {
+    font-weight: bold;
+    align-self: flex-end;
+}
