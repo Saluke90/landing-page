@@ -1,0 +1,89 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    flex: 1;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border-color: #3882f6;
+}
+
+h1 {
+    font-weight: extra-bold;
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.header p, a {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    flex: 1;
+}
+
+.header {
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding-left: 80px;
+    padding-right: 80px;
+    gap:40px;
+    padding-bottom: 40px;
+}
+
+.header-and-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    padding-left:0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.third-and-kriszta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.kriszta {
+    width: 200px;
+    height: auto;
+    align-self: center;
+    flex: 1;
+    
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
